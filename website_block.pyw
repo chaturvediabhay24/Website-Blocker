@@ -1,9 +1,9 @@
 import time
 from datetime import datetime as dt
 host_temp="hosts.txt"
-host_path=r"C:\Windows\System32\drivers\etc\hosts"
+host_path=r"C:\Windows\System32\drivers\etc\hosts"         #path of your host.txt file
 redirect="127.0.0.1"
-website_list=["www.yahoo.com","www.pornhub.com","yahoo.com","pornhub.com"]
+website_list=["www.yahoo.com","www.facebook.com","yahoo.com","facebook.com"]        #list of websites to be blocked
 
 while True:
     if(dt(dt.now().year,dt.now().month,dt.now().day,8)<dt.now()<dt(dt.now().year,dt.now().month,dt.now().day,20) ):
